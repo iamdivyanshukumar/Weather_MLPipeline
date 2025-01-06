@@ -1,0 +1,7 @@
+csv
+pandas
+mysql-connector-python
+scikit-learn
+joblib
+schedule
+requests
