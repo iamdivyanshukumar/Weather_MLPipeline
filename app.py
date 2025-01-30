@@ -14,11 +14,11 @@ from database import save_weather_to_sql
 from weather_fetcher import fetch_weather_data, write_to_csv
 
 # Configuration
-API_KEY = "27873334d90d573bb9f8dff3983e39d1"  # Your API key 
+API_KEY = "Your API Key"  # Your API key 
 DB_CONFIG = {
     "host": "localhost",        # Save at local 
     "user": "root",
-    "password": "Divyanshu56@#",  # Replace with your MySQL password
+    "password": "************",  # Replace with your MySQL password
     "database": "weather"
 }
 LOCATIONS = [
