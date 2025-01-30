@@ -14,11 +14,11 @@ from database import save_weather_to_sql
 from weather_fetcher import fetch_weather_data, write_to_csv
 
 # Configuration
-API_KEY = "Your API Key"  # Your API key 
+API_KEY = "27873334d90d573bb9f8dff3983e39d1"  # Your API key 
 DB_CONFIG = {
     "host": "localhost",        # Save at local 
     "user": "root",
-    "password": "***********",  # Replace with your MySQL password
+    "password": "Divyanshu56@#",  # Replace with your MySQL password
     "database": "weather"
 }
 LOCATIONS = [
@@ -80,7 +80,7 @@ def preprocess_data():
 
     X = df.drop('weather_description', axis=1)
     y = df['weather_description']
-    return train_test_split(X, y, test_size=0.2, random_state=4)
+    return train_test_split(X, y, test_size=0.2, random_state=48)
 
 
 # 3. Model training

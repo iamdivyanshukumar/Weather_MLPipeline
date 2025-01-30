@@ -5,7 +5,7 @@ def save_weather_to_sql(location, data):
     connection = mysql.connector.connect(
         host="localhost",
         user="root",
-        password="*********",  # Replace with your MySQL password
+        password="Divyanshu56@#",  # Replace with your MySQL password
         database="weather"
     )
     cursor = connection.cursor()
